@@ -1,1 +1,143 @@
 /* You can add global styles to this file, and also import other style files */
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+* {
+  font-family: Amazon , sans-serif;
+}
+html {
+}
+.navbar-belt {
+  background: #2e1c1c;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+.navbar-left {
+  display: flex;
+  align-items: center;
+  padding: 0px 10px;
+}
+.navbar-logo {
+  display: flex;
+}
+.navbarHello-span {
+  font-size: 12px;
+  font-weight: 400;
+  opacity: 0.76;
+}
+.navbar-address {
+  display: flex;
+  align-items: flex-end;
+  margin: 0;
+  color: white;
+  padding: 0px 20px;
+}
+.navbarSelectAddress-span {
+  font-size: 14px;
+  font-weight: 700;
+}
+.navbarAddress-description {
+  display: flex;
+  flex-direction: column;
+}
+.anchorNavBar {
+  text-decoration: none;
+}
+.navbar-search {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  flex: 1 1 auto;
+}
+.noMediaAddress {
+  display: none;
+}
+.allDropDown {
+  background-color: #f2bc68;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border: none;
+}
+.searchIconNav {
+  background: white;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border: none;
+  color: #7e3030;
+}
+.shoppingKart {
+  color: #f2bc68;
+}
+.navbar-kart {
+  display: flex;
+}
+.navbar-rightSide {
+  display: flex;
+}
+.navbar-belt-mobile {
+  display: none;
+}
+@media screen and (max-width: 900px) {
+  /*.navbar-belt {*/
+  /*  flex-direction: column;*/
+  /*}*/
+  .media{
+    display: none;
+  }
+  .noMediaAddress {
+    display: flex;
+    padding: 0px 20px;
+    color: white;
+    align-items: flex-end;
+  }
+  .navbar-belt {
+    height: 80px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .mediaAddress {
+    display: none;
+  }
+  .navbar-rightSide {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .navbar-belt {
+    display: none;
+  }
+  .navbar-belt-mobile {
+    background: #2e1c1c;
+    display: flex;
+    flex-direction: column;
+  }
+  .navbartop-mobile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+  }
+  .navbar-select-address-mobile {
+    color: white;
+  }
+  .navbar-right-mobile {
+    display: flex;
+  }
+  .helloSignInMobile {
+    color: white;
+    text-decoration: none;
+    padding: 0px 5px;
+  }
+  .cartLogoMobile {
+    color: #f2bc68;
+    text-decoration: none;
+    padding: 0px 5px;
+  }
+  .searchBarNavMobile {
+    padding: 5px;
+  }
+  .secondaryNavBar {
+    height: 35px;
+    background: #432828;
+  }
+}

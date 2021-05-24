@@ -1,0 +1,115 @@
+<div class="navbar-belt">
+  <div class="navbar-left">
+    <div class="navbar-logo">
+      <a href="#">
+        <img src="assets/unnamed.jpg" class="h-100" style="width: 128.73px;">
+      </a>
+    </div>
+    <a href="#" class="anchorNavBar media">
+      <div class="navbar-address">
+        <div class="navbarAddress-icon">
+          <fa-icon [icon]="faCoffee"></fa-icon>
+        </div>
+        <div class="navbarAddress-description">
+            <span class="navbarHello-span">Hello</span>
+            <span class="navbarSelectAddress-span">Select our address</span>
+        </div>
+      </div>
+    </a>
+  </div>
+  <div class="navbar-search">
+    <div class="input-group">
+      <div class="input-group-prepend">
+        <button class="btn btn-outline-secondary dropdown-toggle allDropDown" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All</button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+          <div role="separator" class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Separated link</a>
+        </div>
+      </div>
+      <input type="text" class="form-control border-0" aria-label="Text input with dropdown button">
+      <div class="input-group-append">
+        <button class="btn btn-outline-secondary searchIconNav">
+          <fa-icon [icon]="faSearch"></fa-icon>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="navbar-rightSide">
+    <div style="display: flex">
+      <div class="navbar-left">
+        <a href="#" class="anchorNavBar">
+          <div class="navbar-address">
+            <div class="navbarAddress-description">
+              <span style="font-size: 12px">Hello, Sign in</span>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="navbar-left navbar-kart">
+        <a href="#" class="anchorNavBar ">
+          <span style="padding: 0px 1px; color: #f2bc68">10</span>
+          <fa-icon [icon]="faShoppingKart" class="shoppingKart"></fa-icon>
+          <span style="font-size: 14px; color: white; padding: 0px 8px">Cart</span>
+        </a>
+      </div>
+    </div>
+    <a href="#" class="anchorNavBar noMediaAddress">
+      <div class="navbarAddress-icon">
+        <fa-icon [icon]="faCoffee"></fa-icon>
+      </div>
+      <div class="navbarAddress-description">
+        <span class="navbarSelectAddress-span">Select our address</span>
+      </div>
+    </a>
+  </div>
+</div>
+<div class="navbar-belt-mobile">
+  <div class="navbartop-mobile">
+    <div class="navbar-left-mobile">
+      <div class="navbar-logo">
+        <a href="#">
+          <img src="assets/unnamed.jpg" class="h-100" style="width: 128.73px;">
+        </a>
+      </div>
+    </div>
+    <div class="navbar-right-mobile">
+      <div style="display: flex">
+        <a href="#" class="helloSignInMobile">
+          <span style="font-size: 12px">Hello, Sign in</span>
+        </a>
+        <a class="cartLogoMobile">
+          <fa-icon [icon]="faShoppingKart"></fa-icon>
+          <span style="padding: 0px 1px; color: #f2bc68">10</span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="input-group searchBarNavMobile">
+    <div class="input-group-prepend">
+      <button class="btn btn-outline-secondary dropdown-toggle allDropDown" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All</button>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Action</a>
+        <a class="dropdown-item" href="#">Another action</a>
+        <a class="dropdown-item" href="#">Something else here</a>
+        <div role="separator" class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">Separated link</a>
+      </div>
+    </div>
+    <input type="text" class="form-control border-0" aria-label="Text input with dropdown button">
+    <div class="input-group-append">
+      <button class="btn btn-outline-secondary searchIconNav">
+        <fa-icon [icon]="faSearch"></fa-icon>
+      </button>
+    </div>
+  </div>
+  <div class="secondaryNavBar">
+    <a href="#" style="display: flex; padding: 5px; font-size: 12px; color: white; text-decoration: none">
+      <fa-icon [icon]="faCoffee" style="padding: 0px 5px"></fa-icon>
+      <span>Deliver to  Salmon - Chirala 523155</span>
+    </a>
+  </div>
+</div>
+
